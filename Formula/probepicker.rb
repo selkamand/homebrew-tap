@@ -1,21 +1,21 @@
 class Probepicker < Formula
   desc "Identify most variable probes in larger-than-memory methylation array datasets"
-  homepage "https://selkamand.github.io/probepicker"
-  version "0.1.3"
+  homepage "https://github.com/selkamand/probepicker"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/selkamand/probepicker/releases/download/v0.1.3/probepicker-aarch64-apple-darwin.tar.gz"
-      sha256 "5b4bdfd8cdb59436074846a2efe41b1350ee0fd29f611b70847bb4c317b27c17"
+      url "https://github.com/selkamand/probepicker/releases/download/v0.1.4/probepicker-aarch64-apple-darwin.tar.gz"
+      sha256 "5e4cba6bf314bd019ca06ecf1f211b428335dba82246f02d2790ec55a51e709e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/selkamand/probepicker/releases/download/v0.1.3/probepicker-x86_64-apple-darwin.tar.gz"
-      sha256 "12357c38b6742f5e6a26644d9bd51dc21e4b3c04fb9ffa5b4f70c826bf128a73"
+      url "https://github.com/selkamand/probepicker/releases/download/v0.1.4/probepicker-x86_64-apple-darwin.tar.gz"
+      sha256 "3a5e1ff058ca5599d47df105a9cf71547fa7e57bb62fe9efdefc0d0513ed97a8"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/selkamand/probepicker/releases/download/v0.1.3/probepicker-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "685e1b2b7c99862ace3faec311058e57afb78ed17cbd374b854b52538f6b01f0"
+      url "https://github.com/selkamand/probepicker/releases/download/v0.1.4/probepicker-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e5cfe98599a1abc4b65c47aec5dbefdfa3396b4c81e77f47dcb2dbd0a4cd9505"
     end
   end
 
